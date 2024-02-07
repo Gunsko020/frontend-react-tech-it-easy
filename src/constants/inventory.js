@@ -325,7 +325,56 @@ export let inventory = [
         ],
         originalStock: 10,
         sold: 8,
+
     },
+
+
 ];
 
 
+// for (let i = 0 ; i <inventory.length; i++){
+//     let typeTvs = inventory[i].type;
+//     console.log(typeTvs)
+// }
+//
+// const typeTvs = inventory.map((tv)=>tv.type);
+//
+// console.log(typeTvs);
+//
+// const tvsOutOfStock = inventory.filter((tv) => {
+//     return tv.sold === tv.originalStock;
+// })
+// console.log(tvsOutOfStock)
+//
+// const smartTvNh = inventory.find((tv)=> {
+//     return tv.type === "NH3216SMART"
+// })
+//
+// console.log(smartTvNh)
+//
+// const sportSuitable = inventory.map((tv)=> {
+//     if (tv.refreshRate >= 100  ){
+//         return {name: `${tv.brand} ${tv.name}` , suitable: true }
+//     }else return {name: `${tv.brand} ${tv.name}`, suitable: false}
+//  })
+//
+// console.log(sportSuitable)
+//
+//
+
+// const largeTvs = inventory.filter((tv)=>{
+//     const tvBigSize =  tv.availableSizes.find((size) => size > 60)
+//     return tvBigSize;
+//
+// })
+// console.log(largeTvs);
+
+// const ambiProducts = inventory.filter((tv) => {
+//     const optionAmbiLight = tv.options.find((option) => {
+//         return option.applicable === true  && option.name === "ambiLight";
+//     })
+//     return optionAmbiLight
+//
+// } )
+//
+// console.log(ambiProducts)
